@@ -69,6 +69,18 @@
                 margin-right: 0;
                 height: 65%;
             }
+            table {
+                border: black solid 2px;
+                width: 80%;
+            }
+            th {
+                background-color: blue;
+                color: whitesmoke;
+            }
+            td, th {
+                border: black solid 2px;
+                text-align: center;
+            }
             .vertical:after {
                 content: "";
                 display: table;
@@ -107,13 +119,28 @@
                  </ul>
             </div>
         <div class="content">
-            <h3>Login</h3>
-            <form action="">
-                Username <input type="text" width="100px">
-                <br>Passwords <input type="text">
-                <br><input type="button" value="Login">
-                <input type="reset" value="Reset">
-            </form>
+            <h3>Jenis Laundry</h3>
+            <table>
+                <tr>
+                    <th>Penerangan</th>
+                    <th>Harga/kg</th>
+                </tr>
+                <tr>
+                    <td><img src='images/selimut.png' width="100px"><br>Selimut</td>
+                    <td>Selimut</td>
+                    <td>RM10.00</td>
+                </tr>
+                <tr>
+                     <td><img src='images/karpet.png' width="100px"><br> Karpet</td>
+                    <td>Karpet</td>
+                    <td>RM20.00</td>
+                </tr>
+                <tr>
+                    <td><img src='images/pakaian.png' width="100px"><br>Pakaian</td>
+                    <td>Pakaian</td>
+                    <td>RM6.00</td>
+                </tr>
+            </table>
         </div>
     </div>
         <!--FOOTER-->
